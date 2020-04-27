@@ -20,7 +20,9 @@ def maxWater(arr, n) :
 if __name__ == "__main__" :  
   
     arr = [0, 1, 0, 2, 1, 0,  
-           1, 3, 2, 1, 2, 1];  
+           1, 3, 2, 1, 2, 1]; 
+
+# equivilent to .length function of javascript
     n = len(arr);  
-      
+    
     print(maxWater(arr, n)); 
